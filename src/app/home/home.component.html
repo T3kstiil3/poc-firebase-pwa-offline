@@ -1,0 +1,8 @@
+<ion-list>
+  <ion-list-header>
+    <ion-label>Liste des Chantiers à proximité ({{chantiers.length}})</ion-label>
+  </ion-list-header>
+  <ion-item *ngFor="let chantier of chantiers" [routerLink]="['/chantier',chantier.id]">
+    <ion-label>{{chantier.name}}</ion-label>
+  </ion-item>
+</ion-list>

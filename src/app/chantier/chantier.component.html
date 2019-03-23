@@ -1,0 +1,40 @@
+<div *ngIf="chantier" class="content">
+
+  <ion-card>
+    <img
+      src="https://images.unsplash.com/photo-1552879890-3a06dd3a06c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2322&q=80"
+      alt="chantier">
+    <ion-card-header>
+      <ion-card-subtitle>Detail chantier</ion-card-subtitle>
+      <ion-card-title>{{chantier.name}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Keep close to Nature's heart... and break clear away, once in awhile,
+      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label>Nom du chantier</ion-label>
+        <input placeholder="Nom du chantier" [(ngModel)]="name" />
+      </ion-item>
+      <br>
+      <ion-button size="small" expand="full" (click)="edit()">Editer</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</div>
+
+<div *ngIf="!chantier" class="content">
+  <p>Récuperation des informations du chantier</p>
+  <ion-progress-bar type="indeterminate"></ion-progress-bar>
+</div>
+
+
+<ion-button [routerLink]="['/']" expand="full" fill="outline">
+  <ion-icon slot="start" name="list"></ion-icon>
+  Retour à la liste
+</ion-button>
