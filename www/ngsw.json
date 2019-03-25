@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1553194830293,
+  "timestamp": 1553472793455,
   "index": "/poc-ionic-firebase-pwa-offline/index.html",
   "assetGroups": [
     {
@@ -182,7 +182,7 @@
         "/poc-ionic-firebase-pwa-offline/common.9cbf7a8ce227a2cf3c7f.js",
         "/poc-ionic-firebase-pwa-offline/es2015-polyfills.2306969ab6640fe7476f.js",
         "/poc-ionic-firebase-pwa-offline/index.html",
-        "/poc-ionic-firebase-pwa-offline/main.9bf861c7ca96e9ef31a2.js",
+        "/poc-ionic-firebase-pwa-offline/main.62e67671ea1776881f51.js",
         "/poc-ionic-firebase-pwa-offline/polyfills.345bad1220e572dc7440.js",
         "/poc-ionic-firebase-pwa-offline/runtime.d180b9bf0412720db223.js",
         "/poc-ionic-firebase-pwa-offline/styles.3fa547c05c119897e9aa.css"
@@ -393,8 +393,8 @@
     "/poc-ionic-firebase-pwa-offline/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/poc-ionic-firebase-pwa-offline/common.9cbf7a8ce227a2cf3c7f.js": "b68e2224dd2e90929cfd58ceb3fe02810a5bf654",
     "/poc-ionic-firebase-pwa-offline/es2015-polyfills.2306969ab6640fe7476f.js": "b00a4b2850c0d7915e682a20ae74ef3501252dda",
-    "/poc-ionic-firebase-pwa-offline/index.html": "9c54dd42c7bf12404b988586b2fb2050c835601f",
-    "/poc-ionic-firebase-pwa-offline/main.9bf861c7ca96e9ef31a2.js": "a5ed388681cf24ce563af2e142a284d7d9044570",
+    "/poc-ionic-firebase-pwa-offline/index.html": "af98365006c3322a937ec41026bf0af97bd37fe4",
+    "/poc-ionic-firebase-pwa-offline/main.62e67671ea1776881f51.js": "9e81ca5e5083df71f522cf9472da68a01fe7a413",
     "/poc-ionic-firebase-pwa-offline/polyfills.345bad1220e572dc7440.js": "3947bf302a3725a992ce97d785fdbbc932f33be2",
     "/poc-ionic-firebase-pwa-offline/runtime.d180b9bf0412720db223.js": "7452839204768976f0843f95afa8eed854c6d83a",
     "/poc-ionic-firebase-pwa-offline/styles.3fa547c05c119897e9aa.css": "f7cc8830b5d21d6bcb9d76731767985e78e42765"
